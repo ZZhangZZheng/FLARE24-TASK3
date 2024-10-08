@@ -1,7 +1,7 @@
 ﻿#  Solution of Team liuhuahua for FLARE24TASK3 Challenge
 
 >Unsupervised Domain Adaptive Segmentation with Single-content Multi-style Generation and Simplified Pseudo-label Selection
-_Xiao Luan and Zheng Zhang and Weiqiang Wang and Xiongfeng Huang and Yue Zeng_
+>Xiao Luan and Zheng Zhang and Weiqiang Wang and Xiongfeng Huang and Yue Zeng_
 
 Built upon [Kaiseem/DAR-UNet](https://github.com/Kaiseem/DAR-UNet) and [Ziyan-Huang/FLARE22](https://github.com/Ziyan-Huang/FLARE22), this repository provides the solution of team blackbean for [MICCAI FLARE24TASK3](https://www.codabench.org/competitions/2296/) Challenge. The details of our method are described in our [paper](https://openreview.net/forum?id=705SUzdm3p).
 
@@ -9,7 +9,7 @@ Built upon [Kaiseem/DAR-UNet](https://github.com/Kaiseem/DAR-UNet) and [Ziyan-Hu
 ## Methods
 
 Our framework is shown below：
-![framework]()
+![framework](https://github.com/ZZhangZZheng/FLARE24-TASK3/blob/master/picture/framework99.png)
 We use the [Evaluation](https://github.com/JunMa11/FLARE/tree/main/FLARE22/Evaluation) to eval our work.
 ## Datasets
 
@@ -23,8 +23,8 @@ We only use the MRI scans and 50 CT scans annotated by people amog the 2050 abdo
 
 Our method achieved an average score of 63.41% and 68.08%([FLARE24TASK3](https://www.codabench.org/competitions/2296/#/results-tab)) for the lesion DSC and NSD on the validation dataset, respectively. The average running time and area under GPU memory-time curve are 10.36s and 13331MB, respectively.
 Here are our precision metrics and resource consumption on the validation set：
-![the metrics of the ablation study]()
-![the resource consumption]()
+![the metrics of the ablation study](https://github.com/ZZhangZZheng/FLARE24-TASK3/blob/master/picture/ablation%20result.png)
+![the resource consumption](https://github.com/ZZhangZZheng/FLARE24-TASK3/blob/master/picture/time.png)
 # Code for the challenge
 
 You can reproduce our method as follows step by step:
