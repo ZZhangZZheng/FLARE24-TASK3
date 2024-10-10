@@ -1,6 +1,7 @@
 ﻿#  Solution of Team liuhuahua for FLARE24TASK3 Challenge
 
 >Unsupervised Domain Adaptive Segmentation with Single-content Multi-style Generation and Simplified Pseudo-label Selection
+>
 >Xiao Luan and Zheng Zhang and Weiqiang Wang and Xiongfeng Huang and Yue Zeng
 
 Built upon [Kaiseem/DAR-UNet](https://github.com/Kaiseem/DAR-UNet) and [Ziyan-Huang/FLARE22](https://github.com/Ziyan-Huang/FLARE22), this repository provides the solution of team liuhuahua for [MICCAI FLARE24TASK3](https://www.codabench.org/competitions/2296/) Challenge. The details of our method are described in our [paper](https://openreview.net/forum?id=705SUzdm3p).
